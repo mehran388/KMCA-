@@ -1,1 +1,161 @@
 # KMCA-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KMCA Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #0a2d6b;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-icon {
+      width: 30px;
+      height: 30px;
+      background: radial-gradient(circle, red, yellow, green);
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      background-color: #0a2d6b;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .btn-yellow {
+      background-color: #f8d442;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .button-row {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .button-row button {
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn-outline-yellow {
+      border-color: #f8d442;
+      background-color: white;
+    }
+
+    .btn-outline-green {
+      border-color: #00c853;
+      background-color: white;
+    }
+
+    .btn-outline-red {
+      border-color: #ff1744;
+      background-color: white;
+    }
+
+    .section {
+      padding: 60px 40px;
+      background-color: #f9f9f9;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #0a2d6b;
+    }
+
+    .section p {
+      max-width: 700px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon"></div>
+      KMCA
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to<br>Our Website</h1>
+    <p>Lorem ipsum dolor sit amet, consectetue adipiscing elit. sed dusm qucumfa uisse ulnod lecidunt ut laureet dolore magna aliqua.</p>
+    <button class="btn-yellow">Learn More</button>
+
+    <div class="button-row">
+      <button class="btn-outline-yellow">About Us</button>
+      <button class="btn-outline-green">Our Services</button>
+      <button class="btn-outline-red">Contact Us</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed dusm aucumfa uisse ulnod lecidunt ut laureet dolore magna aliqua.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed dusm aucumfa uisse ulnod lecidunt ut laureet dolore magna aliqua.</p>
+  </section>
+
+</body>
+</html>
